@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+#cont{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+height: 90%;
+    background: rgba(255,175,75,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(3,250,89,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(3,250,89,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(3,250,89,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(3,250,89,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(3,250,89,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,175,75,1) 0%, rgba(3,250,89,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#03fa59', GradientType=1 );
+}
+#clock{
+    font-family: 'Monoton', cursive;
+    color: #fff;
+    font-size: 70px;
+    width: 500px;
+    position: relative;
+    top:35
+    margin-top: 35%;    
+    top:35%;
+    margin-left: 35%;
+    text-align: center;
+    
+    border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 6px solid #f5f2f5;
+    
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(250,237,250,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(250,237,250,1);
+box-shadow: 10px 10px 5px 0px rgba(250,237,250,1);
+}
